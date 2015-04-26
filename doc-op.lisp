@@ -1,4 +1,5 @@
 (uiop:define-package :bytecurry.asdf-ext/doc-op
+  (:nicknames :asdf-doc-op)
   (:use :asdf :cl)
   (:export #:doc-op
            #:document-system))
@@ -16,8 +17,7 @@
   (declare (ignore force force-not verbose version))
   (apply 'operate 'doc-op system args))
 
-(import '(doc-op document-system) :asdf)
 
 (in-package :asdf)
 
-(export '(doc-op document-system) :asdf)
+(import 'bytecurry.asdf-ext/doc-op:doc-op :asdf)
