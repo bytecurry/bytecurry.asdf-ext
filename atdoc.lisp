@@ -88,4 +88,4 @@ In the latter case path resolution works the same way as for other source files.
                   (subpathname doc-dir "index.html"))
             t)))
 
-(import 'bytecurry.asdf-ext/atdoc:atdoc-html :asdf)
+(import 'bytecurry.asdf-ext/atdoc:atdoc-html :asdf-user)

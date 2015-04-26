@@ -18,6 +18,6 @@
   (apply 'operate 'doc-op system args))
 
 
-(in-package :asdf)
+(in-package :asdf-user)
 
-(import 'bytecurry.asdf-ext/doc-op:doc-op :asdf)
+(import 'bytecurry.asdf-ext/doc-op:doc-op :asdf-user)
