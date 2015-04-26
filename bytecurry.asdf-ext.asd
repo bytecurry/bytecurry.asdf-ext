@@ -7,4 +7,4 @@
   :mailto "bytecurry.software@gmail.com"
   :license "MIT"
   :defsystem-depends-on (:asdf-package-system)
-  :depends-on (:bytecurry.asdf-ext/doc-op :bytecurry.asdf-ext/atdoc))
+  :depends-on (:bytecurry.asdf-ext/interface))
